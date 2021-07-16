@@ -3,7 +3,7 @@
 
 Basic routes
 
-# user in postman for testing
+# use in postman for testing
 
 GET http://localhost:3000
 ###
