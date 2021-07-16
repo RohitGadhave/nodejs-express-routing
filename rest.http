@@ -9,3 +9,10 @@ POST http://localhost:3000/user
 PATCH http://localhost:3000/user/300
 ###
 DELETE http://localhost:3000/user/300
+
+
+#
+#Route parameters
+#
+###
+GET http://localhost:3000/user/34/books/7878

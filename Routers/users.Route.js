@@ -28,4 +28,16 @@ router.delete('/:id', (req, res) => {
 });
 
 
+//Route parameters
+/*
+*method:Get
+*Route path: /user/:userId/books/:bookId
+*Request URL: http://localhost:3000/user/34/books/8989
+*req.params: { "userId": "34", "bookId": "8989" }
+*/
+
+router.get('/:userId/books/:bookId',(req,res)=>{
+    res.json(req.params);
+});
+
 module.exports = router;

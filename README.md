@@ -3,7 +3,7 @@
 
 Basic routes
 
-# use in postman for testing
+# use in postman or use REST client extension for testing
 
 GET http://localhost:3000
 ###
