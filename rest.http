@@ -16,3 +16,19 @@ DELETE http://localhost:3000/user/300
 #
 ###
 GET http://localhost:3000/user/34/books/7878
+###
+GET http://localhost:3000/user/100-300
+###
+GET http://localhost:3000/user/100.304
+###
+GET http://localhost:3000/user/user/4204
+
+#Json Format data
+###
+POST http://localhost:3000/user/jsonobj
+Content-Type: application/json
+
+{
+    "name":"roro",
+    "password":"1234"
+}
