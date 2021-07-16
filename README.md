@@ -1,10 +1,9 @@
 # nodejs-express-routing
-nodejs express routing
 
 
 Basic routes
 
-#user in postman
+# user in postman for testing
 
 GET http://localhost:3000
 ###
