@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/RohitGadhave/nodejs-express-routing/issues"
   },
-  "homepage": "https://github.com/RohitGadhave/nodejs-express-routing#readme"
+  "homepage": "https://github.com/RohitGadhave/nodejs-express-routing#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
 }
